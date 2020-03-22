@@ -1,0 +1,110 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{00000000-0000-0000-b450-000000000000}",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            "useAcrylic": true,
+            "acrylicOpacity": 0.85,
+            "colorScheme": "One Half Dark",
+            "fontSize": 14
+        },
+        "list":
+        [
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": true
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+                "hidden": true,
+                "name": "Alpine",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "commandline": "cmd.exe /c \"set MSYSTEM=MINGW64&& set MSYS=winsymlinks:nativestrict&& set MSYS2_PATH_TYPE=inherit&& C:/msys64/usr/bin/bash.exe --login\"",
+                "hidden": false,
+                "startingDirectory": "C:/msys64/home/user",
+                "guid" : "{00000000-0000-0000-b450-000000000000}",
+                "icon": "C:\\msys64\\msys2.ico",
+                "name" : "MSYS2"
+            }
+        ]
+    },
+
+    "schemes": [],
+
+    "keybindings": [
+        {
+            "command": "newTab",
+            "keys": [
+                "ctrl+t"
+            ]
+        },
+        {
+            "command": "closeTab",
+            "keys": [
+                "ctrl+w"
+            ]
+        },
+        {
+            "command": "copy",
+            "keys": [
+                "ctrl+c"
+            ]
+        },
+        {
+            "command": "paste",
+            "keys": [
+                "ctrl+v"
+            ]
+        },
+        {
+            "command": "switchToTab0",
+            "keys": [
+                "ctrl+1"
+            ]
+        },
+        {
+            "command": "switchToTab1",
+            "keys": [
+                "ctrl+2"
+            ]
+        },
+        {
+            "command": "switchToTab2",
+            "keys": [
+                "ctrl+3"
+            ]
+        },
+        {
+            "command": "switchToTab3",
+            "keys": [
+                "ctrl+4"
+            ]
+        }
+    ]
+}
