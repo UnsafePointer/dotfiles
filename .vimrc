@@ -1,0 +1,12 @@
+set number
+set expandtab
+set autoindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set laststatus=2
+set cursorline
+syntax enable
+set title
+set ruler
+set backspace=indent,eol,start

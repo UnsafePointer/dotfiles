@@ -1,13 +1,15 @@
 {
-    "window.zoomLevel": 1,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "editor.rulers": [
-        100
-    ],
+    "editor.rulers": [100],
     "editor.fontSize": 14,
     "workbench.startupEditor": "newUntitledFile",
-    "cmake.configureOnOpen": true,
-    "git.path": "C:\\Users\\renzo\\scoop\\shims\\git.exe",
-    "explorer.confirmDelete": false
-}
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.preview": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "top",
+    "window.zoomLevel": 1,
+  }
